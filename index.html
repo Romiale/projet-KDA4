@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire d'adhésion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="flex form">
+        <div class="div-form1">
+            <span class="span1">General information</span>
+            <select class="rm-border" name="title" id="title">
+                <option value="ass_dev">Title</option>
+                <option value="ass_dev">Assistance en developpement</option>
+                <option value="dev_app">Developpement d'une application</option>
+                <option value="maint_app">Maintenace d'application web</option>
+                <option value="cont_dir">contrat direct</option>
+            </select>
+            <div class="flex">
+                <input class="separed " type="text" id="first_name" placeholder="First Name">
+                <input class=" separed " type="text" id="last_name" placeholder="Last Name">
+            </div>
+
+            <select aria-placeholder="type de contrat" class="rm-border" name="position" id="position">
+                <option value="">Position</option>
+                <option value="cont_dir">Contrat direct</option>
+                <option value="contra_indir">Contrat indirect</option>
+                <option value="serv_simpl">Service simple</option>
+            </select>
+
+            <input class="rm-border" type="text" id="company" placeholder="Company">
+
+            <div class="flex">
+                <input class="separed2 rm-border" type="text" id="bus_Arena" placeholder="Business Arena"> 
+                <select class=" separed1 rm-border" name="Employees" id="Employees">
+                    <option value="option1">Employees</option>
+                    <option value="option2">option 2</option>
+                    <option value="option3">option 3</option>
+                    <option value="option4">option 4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="div-form2">
+            <span class="span2">Contact Details</span>
+            <input class="rm-border" id="street" type="text" class="rm-border" placeholder="Street + Nr">
+            <input id="add_information" type="text" class="rm-border" placeholder="Additional Information">
+
+            <div class="flex">
+                <input class=" separed1 rm-border" id="zip_code" type="number" placeholder="Zip Code">
+                <select class="separed2 rm-boreder" name="place" id="place" placeholder="place">
+                  <option value="option1">Place</option>
+                  <option value="option2">option 2</option>
+                  <option value="option3">option 3</option>
+                  <option value="option4">option 4</option>
+                </select>
+            </div>
+
+            <select aria-placeholder="country" class="rm-border" id="country" name="country">
+                <option value="DRC">Country</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Angola">Angola</option>
+            </select>
+
+            <div class="flex">
+                <input id="code_c" class="separed1  rm-border" type="number" placeholder="Code +">
+                <input id="Phone_num" class="separed2 rm-border" type="number" placeholder="Phone Number">
+            </div>
+            <input class="rm-border" type="email" name="email" id="email" placeholder="Your Email">
+            
+            <input class="rad" type="radio" name="condition" id="condition"> <span id="comment">I do accept the <a href="codition.html">Terms and Conditions</a>of your site</span>
+            <button class="Rbutton" type="submit">Register Badge</button>
+            </div>
+        </div>    
+            
+          
+    </form>
+</body>
+</html>

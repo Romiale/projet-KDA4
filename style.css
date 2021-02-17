@@ -1,0 +1,133 @@
+body{
+   
+    background: #929de7;
+}
+form{
+
+    width: 900px;
+    height: 800px;
+    margin: 100px 130px;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+
+.span1{
+    padding-top: 100Px;
+    margin: 50px 30px;
+    text-align:left;
+    color:#8fa7d9;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.span2{
+    padding-top: 100px;
+    margin: 50px 30px;
+    color: #ead8f8;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.flex{
+    display: flex;
+}
+.div-form1{
+    padding-top: 40px;
+    background:white;
+    color: #a0a0a0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+.div-form2{
+    padding-top: 40px;
+    background:rgb(51, 40, 146);
+    color: #cdb9f4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Rbutton{
+    height:20px;
+    width: 200px;
+    padding-bottom:30px;
+    padding-top: 15px;
+    border-radius: 30px;
+    background:white;
+    color: black;
+    font-size: 1em;
+    margin: 30px 30px;
+}
+
+.rm-border{
+    height: 30px;
+    width: 480px;
+    border-top: solid 0px white;
+    margin:10px 30px;
+    border-bottom:solid 2px rgb(122,122,122);
+
+
+}
+
+.separed{
+    margin:10px -15px 10px 30px;
+    height: 30px;
+    width: 230px;
+    border-bottom:solid 2px rgb(122,122,122);
+    
+}
+.div-form1 .separed1{
+    margin-left: 60px;
+    margin: 14px 0px 0px 60px;
+    
+}
+.separed1{
+    width:160px;
+    margin:10px 10px 10px 30px;
+    border-bottom:solid 2px rgb(122, 122, 122);
+
+}
+.separed2{
+    width:310px;
+    margin-right: -50px;
+    border-bottom:solid 2px rgb(122,122,122);
+    
+}
+input,select {
+    font-size: 1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    
+}
+input,select:focus{
+    
+    outline: none;
+}
+a{
+    color: white;
+}
+
+.div-form1 select {
+    color: rgb(90, 89, 89);
+    }
+.div-form2 select{
+    color:#7a7a7a;
+} 
+ .div-form2 .rad{
+    
+    margin-left: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.div-form2 .flex select{
+    margin-bottom:10px;
+    width: 310px;
+}
+.div-form2 .flex input.separed2{
+    width: 305px; 
+    margin-left: 0px;
+}
+#comment{
+    color: rgb(146,146,146);
+}
