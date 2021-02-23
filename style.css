@@ -1,16 +1,17 @@
 body{
    
-    background: #929de7;
+    background:linear-gradient(to right, #85c0ed,#9b88e4);
 }
+
 form{
 
-    width: 900px;
-    height: 800px;
-    margin: 100px 130px;
+    width:70vw;
+    height: 85vh;
+    margin: 0 auto;
     font-family: sans-serif;
     font-size: 1em;
-}
 
+}
 
 .span1{
     padding-top: 100Px;
@@ -33,18 +34,24 @@ form{
     display: flex;
 }
 .div-form1{
+    width: 45vw;
+    height: 90vh;
+    padding-left: 9px;
     padding-top: 40px;
     background:white;
-    color: #a0a0a0;
     border-top-left-radius: 10px;
     border-bottom-left-radius:10px ;
-}
+  }
 .div-form2{
+    width: 45vw;
+    height: 90vh;
     padding-top: 40px;
+    padding-left: 8px;
+    padding-right: 10px;
     background:rgb(51, 40, 146);
-    color: #cdb9f4;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    
 }
 .Rbutton{
     height:20px;
@@ -60,36 +67,34 @@ form{
 
 .rm-border{
     height: 30px;
-    width: 480px;
-    border-top: solid 0px white;
+    width: 30vw;
     margin:10px 30px;
-    border-bottom:solid 2px rgb(122,122,122);
-
-
+    
 }
 
 .separed{
-    margin:10px -15px 10px 30px;
+    margin:10px -22px 10px 30px;
     height: 30px;
-    width: 230px;
-    border-bottom:solid 2px rgb(122,122,122);
+    width: 14.5vw;
+    
     
 }
 .div-form1 .separed1{
     margin-left: 60px;
     margin: 14px 0px 0px 60px;
     
+    
 }
 .separed1{
-    width:160px;
+    width:7vw;
     margin:10px 10px 10px 30px;
-    border-bottom:solid 2px rgb(122, 122, 122);
+    
 
 }
 .separed2{
-    width:310px;
+    width:22vw;
     margin-right: -50px;
-    border-bottom:solid 2px rgb(122,122,122);
+    
     
 }
 input,select {
@@ -98,8 +103,8 @@ input,select {
     border-left: none;
     border-right: none;
     background: none;
-    
 }
+
 input,select:focus{
     
     outline: none;
@@ -109,11 +114,10 @@ a{
 }
 
 .div-form1 select {
-    color: rgb(90, 89, 89);
+    color: #7a7a7a;
     }
-.div-form2 select{
-    color:#7a7a7a;
-} 
+
+
  .div-form2 .rad{
     
     margin-left: 30px;
@@ -122,12 +126,63 @@ a{
 }
 .div-form2 .flex select{
     margin-bottom:10px;
-    width: 310px;
+    width: 22.3vw;
+   
+    border-bottom:solid 0.5px #7f00f2;
 }
-.div-form2 .flex input.separed2{
-    width: 305px; 
-    margin-left: 0px;
+#Phone_num{
+    margin-right:-100px;
+    width:21.8vw;
+    margin-left: -1px;
+    border-bottom:solid 0.5px #7f00f2;
+} 
+#country{
+    width: 30.3vw;
+    border-bottom:solid 0.5px #7f00f2;
 }
 #comment{
-    color: rgb(146,146,146);
+    color: #cac7c7;
 }
+
+.rad:checked{
+    
+    color:white;
+    background: white;
+    padding: 1px 1px;
+    border: 1px solid  #ebeaf0;
+}
+.div-form2 select, .div-form2 input{
+    border-bottom:solid 0.5px #7f00f2;
+    text-decoration: unset;
+    color: #f5eded;
+}
+.div-form2 input::placeholder{
+    color: rgb(204, 202, 202);
+    
+    
+}
+.div-form1 select, .div-form1 input{
+    border-bottom:solid 0.5px #d2cfd4;
+}
+#condition{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 2px;
+
+  position: relative;
+  top: 4px;
+}
+#condition:checked{
+    border: 6px solid rgb(223, 218, 218);
+    border: 2px solid #999;
+}
+      
+
